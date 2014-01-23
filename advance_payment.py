@@ -1,4 +1,5 @@
 from osv import osv, fields
+from openerp.tools.translate import _
 
 class advance_payment_fix(osv.osv):
     _name="sale.advance.payment.inv"
